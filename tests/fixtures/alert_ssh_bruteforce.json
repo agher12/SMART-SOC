@@ -1,0 +1,13 @@
+{
+  "id": "1730900000.123456",
+  "timestamp": "2026-04-07T10:15:00.000+0000",
+  "rule": {
+    "id": "5712",
+    "level": 10,
+    "description": "sshd: brute force trying to get access to the system. Non existent user.",
+    "mitre": {"id": ["T1110"], "tactic": ["Credential Access"]}
+  },
+  "agent": {"id": "001", "name": "victima-ubuntu", "ip": "192.168.0.150"},
+  "data": {"srcip": "192.168.0.170", "srcuser": "admin"},
+  "full_log": "Apr  7 10:15:00 victima-ubuntu sshd[2211]: Invalid user admin from 192.168.0.170 port 51544"
+}

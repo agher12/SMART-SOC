@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+config/wazuh_indexer_ssl_certs/
+*.pem
+*.key
+docs/TFM*.pdf
